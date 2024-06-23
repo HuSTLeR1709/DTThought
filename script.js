@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
+ 
     const backIcon = document.querySelector('.fa-arrow-circle-left');
     const closeIcon = document.querySelector('.close');
     const sideMenu = document.querySelector('.side-menu');
@@ -18,4 +19,9 @@ document.addEventListener('DOMContentLoaded', function() {
         closeTop.classList.remove('open');
         backIcon.style.display = 'flex';
     });
+
 });
+
+
+
+

@@ -1,0 +1,1621 @@
+/* Collapsed Journey board */
+
+.body{
+    font-family: 'Open Sans', sans-serif ;
+    font-family: 'Poppins', sans-serif ;
+}
+.fullBoard{
+position: relative;
+width: 100%;
+height: 1805px;
+
+background: #FFFFFF;    
+font-family: 'Open Sans', sans-serif
+}
+
+.nav{
+    /* Rectangle 1 */
+
+position: absolute;
+width: 100%;
+height: 90px;
+left: 0px;
+top: 0px;
+
+display: flex;
+align-items: center;
+justify-items: center;
+flex-direction: row;
+justify-content: space-between;
+
+background: #F0F0F0;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.left-part{
+    /* Rectangle 1 */
+
+position: absolute;
+display: flex;
+gap: 10px;
+font-size: xx-large;
+margin-left: 85px;
+
+
+
+}
+.right-part{
+    position: absolute; 
+    left: 1210px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
+    gap: 20px;
+}
+
+.deep{
+
+}
+.blueText{
+    font-weight: 800;
+ color: #0029FF;
+ 
+}
+
+.image{
+    /* Ellipse 53 */
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 150px;
+
+object-fit: cover;
+
+background: url(b9bfc59f733c9f17f2bede82c41154f1.jpeg);
+border-radius: 50%;
+background-size: cover;
+
+}
+.homeouter{
+    background-color: #3683F0;
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    border: o.1px solid #3683F0;
+    border-radius: 50%;
+    text-align: center;
+}
+.home{
+    color: white;
+}
+
+.toolsouter{
+    background-color: #3683F0;
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    border: o.1px solid #3683F0;
+    border-radius: 50%;
+    text-align: center;
+}
+.tool{
+    color: white;
+}
+
+.bellouter{
+    background-color: #3683F0;
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    border: o.1px solid #3683F0;
+    border-radius: 50%;
+    text-align: center;
+}
+.bell{
+    color: white;
+}
+.menu{
+    position: absolute;
+    left: 200px;
+    top: 10px;
+    color: #0029FF;
+    
+    
+}
+
+.technical{
+    /* Technical Project Management */
+
+position: absolute;
+width: 466px;
+height: 42px;
+left: 187px;
+top: 108px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 42px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+color: #0029FF;
+
+
+}
+
+.explore{
+    /* Rectangle 1873 */
+
+position: absolute;
+width: 1066px;
+height: 135px;
+left: 187px;
+top: 187px;
+
+background: #E9ECEF;
+border-radius: 5px;
+
+}
+
+.heading{
+    /* Explore the world of management */
+
+position: absolute;
+width: 374.05px;
+height: 30px;
+left: 30px;
+top: 0px;
+
+
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+color: #000000;
+
+
+}
+
+.desc{
+    /* As a project manager, you play an important reole in leading a project through initiation, planning, execution, monitoring, controlling and completion. How? Do you want to manage each and every step of your life? */
+
+position: absolute;
+width: 1012px;
+height: 45px;
+left: 30px;
+top: 35px;
+
+
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+
+}
+
+.right-inner{
+    /* Rectangle 2326 */
+
+position: absolute;
+width: 394px;
+height: 50px;
+left: 1240px;
+top: 280px;
+
+background: #000000;
+border-radius: 30px 30px 0px 0px;
+transform: rotate(-90deg);
+
+}
+
+.cross{
+    /* Icon */
+
+position: absolute;
+
+right: 8%;
+top: 14px;
+font-size: 25px;
+color: white;
+
+}
+.notice-text{
+ color: white;
+ letter-spacing: 16px;
+ position: absolute; 
+ left: 30px;
+
+
+}
+.submit{
+    /* Rectangle 1 */
+    padding: 5px;
+width: 110px;
+height: 30px;
+position: absolute;
+left: 76%;
+right: 0%;
+top: 8%;
+bottom: 0%;
+color: white;
+border: none;
+font-size: 15px;
+font-family: "Poppins";
+
+background: #0029FF;
+border-radius: 10px;
+
+}
+.thread{
+    /* Thread A */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 89.62px;
+height: 27px;
+left: 50px;
+top: -15px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+
+color: #000000;
+
+
+
+}
+
+.side-left{
+    /* Rectangle 2329 */
+
+position: absolute;
+width: 137px;
+height: 692px;
+left: 0px;
+top: 140px;
+
+background: #FDFDFD;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+border-radius: 0px 0px 20px 20px;
+
+}
+
+.side-menu {
+    position: absolute;
+    width: 392px;
+    height: 692px;
+    left: -392px; /* Hide the menu initially */
+    top: 140px;
+    background: #FDFDFD;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 20px 20px;
+    transition: left ease, left 0.3s ease, right 0.3s ease;
+    z-index: 2;
+}
+
+.side-menu.open {
+    left: 0; /* Move the menu into view */
+}
+
+.left-top{
+    /* Rectangle 1874 */
+
+position: absolute;
+left: 0%;
+right: 90.83%;
+top: 4.99%;
+bottom: 92.24%;
+
+background: #000000;
+border-radius: 0px 22px 0px 0px;
+
+}
+
+.left-top.open {
+    width: 382px; /* Move the left-top element in sync with the menu */
+    justify-content: flex-end; /* Move content to the right */
+    padding-right: 10px;
+}
+
+.close{
+    color: white;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+
+.left-top, .close-top {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    height: 40px;
+    background: #000000;
+    border-radius: 0px 22px 0px 0px;
+    transition: width 0.3s ease, left 0.3s ease, right 0.3s ease;
+    z-index: 2;
+    width: 137px; /* Initial width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-head{
+    /* Explore the world of management */
+
+position: absolute;
+width: 309px;
+height: 24px;
+left: 32px;
+top: 41px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+color: #000000;
+
+
+}
+
+.main-head{
+    /* Journey Board */
+
+position: absolute;
+width: 150px;
+height: 24px;
+left: 18px;
+top: -30px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+
+}
+
+.list{
+    /* Technical Project Management Threadbuild Structure your pointers 4SA Method */
+
+position: absolute;
+width: 309px;
+height: 110px;
+left: 32px;
+top: 83px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+
+}
+
+.close-top {
+    width: 392px; /* Width when open */
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.close-top {
+    display: none; /* Initially hidden */
+}
+
+.close-top.open {
+    display: flex; /* Show when menu is open */
+}
+
+
+.back{
+   
+color: #FFFFFF;
+position: absolute;
+width: 39px;
+height: 29px;
+left: 85px;
+
+font-size: 25px;
+transform: rotate(180deg);
+background: #000;
+
+
+
+}
+
+.inner{
+    /* Rectangle 2329 */
+/* Rectangle 2329 */
+
+/* Rectangle 1881 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 68px;
+height: 68px;
+left: 32px;
+top: 45px;
+
+border: 1px solid #0029FF;
+border-radius: 20px;
+
+
+
+}
+
+.sidebartext{
+    /* 1 */
+
+position: absolute;
+width: 12px;
+height: 54px;
+left: 25px;
+top: -29px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 54px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+color: #0029FF;
+
+
+}
+
+.card1{
+    /* Rectangle 1869 */
+
+position: absolute;
+width: 480px;
+height: 580px;
+left: 214px;
+top: 397px;
+
+background: #FDFDFD;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+
+}
+.card2{
+    /* Rectangle 1869 */
+
+position: absolute;
+width: 480px;
+height: 580px;
+left: 814px;
+top: 397px;
+
+background: #FDFDFD;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+
+}
+
+.cardtop{
+    /* Rectangle 1874 */
+
+position: absolute;
+width: 480px;
+height: 50px;
+left: 0px;
+top: 0px;
+
+background: #000000;
+border-radius: 15px 15px 0px 0px;
+
+}
+
+.cardhead{
+    
+/* Technical Project Management */
+
+position: absolute;
+width: 247px;
+height: 22px;
+left: 140px;
+top: 0px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+
+}
+
+.cardhead2{
+    
+    /* Technical Project Management */
+    
+    position: absolute;
+    width: 247px;
+    height: 22px;
+    left: 200px;
+    top: 0px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+    
+    
+    }
+
+.ibg{
+    /* Group 1735 */
+
+position: absolute;
+width: 25px;
+height: 25px;
+left: 423px;
+top: -4px;
+background: #ffffff;
+text-align: center;
+border-radius: 50%;
+
+
+}
+
+.i{
+    position: absolute;
+    top: 3px;
+    left: 10px;
+}
+
+.carddesc{
+   /* image 13 */
+
+position: absolute;
+width: 480px;
+height: 291px;
+left: 0px;
+top: 133px;
+
+
+
+background-size: cover;
+
+
+}
+
+.cardupperdesc{
+    /* Description: Story of Alignment Scope of Agility Specific Accountable Staggering Approach */
+
+position: absolute;
+width: 453px;
+height: 83px;
+left: 25px;
+top: 56px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+
+}
+.headbox{
+    /* Rectangle 1237 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 482px;
+height: 40px;
+left: 0px;
+top: 140px;
+
+background: rgba(254, 255, 192, 0.2);
+border: 0.1px solid rgba(0, 0, 0, 0.4);
+
+}
+
+.side-right{
+    /* Rectangle 2325 */
+
+position: absolute;
+width: 95px;
+height: 394px;
+left: 1415px;
+top: 108px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px 0px 0px 30px;
+
+}
+
+.subthread{
+    /* Bg layer */
+
+/* Bg layer */
+
+/* Group 1592 */
+
+position: absolute;
+width: 199px;
+height: 95px;
+left: 30px;
+top: 200px;
+
+background: rgb(0, 0, 0,0.05);
+border-radius: 10px;
+border-radius: 10px;
+border: 0.1px solid rgba(144, 143, 143, 0.4);
+
+}
+.subthread2{
+    /* Bg layer */
+
+/* Bg layer */
+
+/* Group 1592 */
+
+position: absolute;
+width: 199px;
+height: 95px;
+left: 250px;
+top: 200px;
+
+background: rgb(0, 0, 0,0.05);
+border-radius: 10px;
+border-radius: 10px;
+border: 0.1px solid rgba(147, 146, 146, 0.4);
+
+}
+.subtext{
+    /* Sub thread 1 */
+
+position: absolute;
+left: 10px;
+right: 40.84%;
+top: -6px;
+bottom: 65.43%;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+
+color: #000000;
+
+
+}
+.subtext2{
+    /* Sub thread 1 */
+
+position: absolute;
+left: 10px;
+right: 40.84%;
+top: -6px;
+bottom: 65.43%;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+
+color: #000000;
+
+
+}
+.place{
+    width: 86px;
+height: 16px;
+top: 636px;
+left: 700px;
+margin-left: 10px;
+gap: 0px;
+opacity: 0px;
+font-family: Open Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 16.34px;
+text-align: left;
+
+}
+.place2{
+    width: 86px;
+height: 16px;
+top: 636px;
+left: 700px;
+margin-left: 10px;
+gap: 0px;
+opacity: 0px;
+font-family: Open Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 16.34px;
+text-align: left;
+
+}
+.enter{
+    /* Bg layer */
+
+position: absolute;
+width: 199px;
+height: 70px;
+left: 30px;
+top: 229px;
+
+background: #ffffff;
+border-radius: 10px;
+border: 0.1px solid rgb(147, 147, 147,0.4);
+
+}
+
+.enter2{
+    /* Bg layer */
+
+position: absolute;
+width: 199px;
+height: 70px;
+left: 250px;
+top: 229px;
+
+background: #ffffff;
+border-radius: 10px;
+border: 0.1px solid rgb(149, 149, 149,0.4);
+
+}
+
+.process{
+    /* Group 1733 */
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 100px;
+height: 25px;
+left: 72.88%;
+right: 0.81%;
+top: 59.89%;
+bottom: 58.34%;
+
+background: #FFFFFF;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+
+
+
+
+}
+.arrow{
+    position: absolute;
+    left: 85px;
+    top: 5px;
+}
+.arrowcat{
+    position: absolute;
+    left: 85px;
+    top: 5px;
+}
+
+.processText{
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.categ{
+    /* Rectangle 4 */
+
+position: absolute;
+width: 100px;
+height: 25px;
+left: 48.38%;
+right: 24.31%;
+top: 59.89%;
+bottom: 58.34%;
+
+background: #FFFFFF;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+
+}
+
+
+.button{
+    /* Component 57 */
+
+position: absolute;
+width: 115px;
+height: 36px;
+left: 20px;
+top: 390px;
+background-color: #0029FF;
+border-radius: 10px;
+text-align: center;
+
+
+}
+
+.buttontxt{
+    position: absolute;
+    top: -7px;
+    left: 6px;
+    color: #F0F0F0;
+}
+
+.summary{
+    /* Bg layer */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 436px;
+height: 86px;
+left: 4.65%;
+right: 16.81%;
+top: 76.7%;
+bottom: 49.7%;
+
+background: rgba(0, 0, 0, 0.05);
+opacity: 1;
+border: 0.1px solid #bdbbbb9a;
+box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+
+}
+
+.summarytxt{
+    /* Bg layer */
+
+box-sizing: border-box;
+width: 436px;
+height: 86px;
+position: absolute;
+left: -0.2%;
+right: 0%;
+top: 31%;
+bottom: 0%;
+
+background: #FFFFFF;
+opacity: 1;
+border: 0.1px solid #a2a2a281;
+box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+
+}
+
+.summaryinner{
+    position: absolute;
+    top: -10px;
+    left: 6px;
+    color: #000000;
+}
+
+.innerText{
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    color: #929292;
+}
+
+.card3{
+    /* Rectangle 1871 */
+
+position: absolute;
+width: 480px;
+height: 580px;
+left: 213px;
+top: 1034px;
+
+background: #FDFDFD;
+box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+
+}
+
+.title{
+    /* Rectangle 1880 */
+
+position: absolute;
+width: 422px;
+height: 43px;
+left: 30px;
+top: 241px;
+
+background: #FCFBFB;
+box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+
+}
+
+.titletxt{
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    color: #000000;
+    width: 85px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.79px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    
+
+}
+
+.content{
+    /* Rectangle 1882 */
+
+position: absolute;
+width: 422px;
+height: 82px;
+left: 30px;
+top: 360px;
+
+background: #FCFBFB;
+box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.18);
+border-radius: 5px 5px 0px 0px;
+
+}
+
+.contentbox{
+    /* Rectangle 2320 */
+
+position: absolute;
+width: 422px;
+height: 142px;
+left: 30px;
+top: 438px;
+
+background: #FCFBFB;
+box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.15);
+border-radius: 0px;
+
+}
+
+.contenttxt{
+    position: absolute;
+    top: 320px;
+    left: 30px;
+    color: #000000;
+    width: 85px;
+    font-family: Open Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 21.79px;
+letter-spacing: 0.02em;
+text-align: left;
+
+}
+
+.card4{
+    /* Rectangle 1872 */
+
+position: absolute;
+width: 480px;
+height: 580px;
+left: 813px;
+top: 1034px;
+
+background: #FDFDFD;
+box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+
+}
+
+.file{
+    /* File */
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 20px;
+top: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: 0.02em;
+
+color: #616161;
+
+
+}
+
+.edit{
+    /* Edit */
+
+position: absolute;
+width: 24px;
+height: 22px;
+left: 56px;
+top: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: 0.02em;
+
+color: #616161;
+
+
+}
+
+.view{
+    /* View */
+
+position: absolute;
+width: 30px;
+height: 22px;
+left: 95px;
+top: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: 0.02em;
+
+color: #616161;
+
+
+}
+
+.insert{
+    /* Insert */
+
+position: absolute;
+width: 36px;
+height: 22px;
+left: 146px;
+top: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: 0.02em;
+
+color: #616161;
+
+
+}
+
+.format{
+    /* Format */
+
+position: absolute;
+width: 46px;
+height: 22px;
+left: 200px;
+top: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: 0.02em;
+
+color: #616161;
+
+
+}
+
+.tools{
+    /* Tools */
+
+position: absolute;
+width: 33px;
+height: 22px;
+left: 260px;
+top: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: 0.02em;
+
+color: #616161;
+
+
+}
+
+.table{
+    /* Table */
+
+position: absolute;
+width: 35px;
+height: 22px;
+left: 310px;
+top: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: 0.02em;
+
+color: #616161;
+
+
+}
+
+.help{
+    /* Help */
+
+position: absolute;
+width: 28px;
+height: 22px;
+left: 360px;
+top: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: 0.02em;
+
+color: #616161;
+
+
+}
+
+.undo{
+    /* arrow-curve-left-right */
+
+position: absolute;
+width: 21px;
+height: 18px;
+left: 20px;
+top: 40px;
+
+
+
+}
+
+.redo{
+    /* arrow-curve-left-right */
+
+position: absolute;
+width: 21px;
+height: 18px;
+left: 50px;
+top: 40px;
+
+
+
+}
+
+.expand{
+    /* arrow-curve-left-right */
+
+position: absolute;
+width: 21px;
+height: 18px;
+left: 80px;
+top: 40px;
+
+
+
+}
+
+.para{
+    /* Rectangle 2318 */
+
+position: absolute;
+width: 102px;
+height: 18px;
+left: 111px;
+top: 40px;
+
+background: #EBEBEB;
+
+}
+
+.paratxt{
+    position: absolute;
+width: 102px;
+height: 18px;
+left: 3px;
+top: -12px;
+color: #616161;
+font-family: Poppins;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.02em;
+text-align: left;
+
+
+
+}
+
+.dots{
+    position: absolute;
+width: 102px;
+height: 18px;
+left: 221px;
+top: 40px;
+}
+
+.cardhead4{
+    /* Threadbuild */
+/* 4SA Method */
+
+position: absolute;
+width: 120px;
+height: 22px;
+left: 200px;
+top: 0px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+
+
+}
+
+.intro{
+    /* Rectangle 2324 */
+
+position: absolute;
+width: 434px;
+height: 43px;
+left: 25px;
+top: 160px;
+
+background: #F2F2F2;
+
+}
+
+.introup{
+    /* Vector */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 4.31%;
+right: 44.58%;
+top: 15px;
+bottom: 32.34%;
+
+
+}
+
+.introtxt{
+    position: absolute;
+    margin-left: 50px;
+    
+    width: 193px;
+height: 30px;
+top: -6px;
+left: 1px;
+gap: 0px;
+opacity: 0px;
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 21.79px;
+letter-spacing: 0.02em;
+text-align: left;
+
+}
+
+.introdetail{
+    /* The 4SA Method , How to bring a idea into progress ? */
+
+position: absolute;
+width: 394px;
+height: 67px;
+left: 20px;
+top: 50px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+
+}
+
+.seemore{
+    /* See More */
+
+position: absolute;
+width: 71px;
+height: 29px;
+left: 350px;
+top: 90px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.02em;
+
+color: #606161;
+
+
+}
+
+.seemore2{
+    /* See More */
+
+position: absolute;
+width: 71px;
+height: 29px;
+left: 350px;
+top: 120px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.02em;
+
+color: #606161;
+
+
+}
+
+.threada{
+    /* Rectangle 2327 */
+
+position: absolute;
+width: 434px;
+height: 43px;
+left: 25px;
+top: 315px;
+
+background: #FCFCFC;
+border: 1px solid #D9D7D7;
+
+}
+
+.threadup {
+    box-sizing: border-box;
+
+position: absolute;
+left: 4.31%;
+right: 44.58%;
+top: 15px;
+bottom: 32.34%;
+}
+
+.threadahead{
+    position: absolute;
+    margin-left: 50px;
+    
+    width: 193px;
+height: 30px;
+top: -6px;
+left: 1px;
+gap: 0px;
+opacity: 0px;
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 21.79px;
+letter-spacing: 0.02em;
+text-align: left;
+}
+
+.threadadetail{
+    position: absolute;
+width: 394px;
+height: 67px;
+left: 20px;
+top: 50px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+
+}
+
+.example{
+    /* Rectangle 2328 */
+
+position: absolute;
+width: 394px;
+height: 43px;
+left: 64px;
+top: 493px;
+
+background: #FCFCFC;
+border: 1px solid #D9D7D7;
+
+}
+
+.exampletxt{
+    /* Example 1 */
+
+position: absolute;
+
+width: 193px;
+height: 30px;
+left: 20px;
+top: -5px;
+
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 21.79px;
+letter-spacing: 0.02em;
+text-align: left;
+
+
+color: #000000;
+
+
+}
+
+.exampledetail{
+    /* You have a concept , How will you put into progress? */
+
+position: absolute;
+width: 394px;
+height: 67px;
+left: 3px;
+top: 50px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+
+}
+
+.questionmark{
+    /* Ellipse 198 */
+
+position: absolute;
+width: 85px;
+height: 85px;
+left: 1403px;
+top: 1490px;
+border-radius: 50%;
+
+background: #0029FF;
+
+
+
+}
+.meeting{
+    /* Ellipse 198 */
+
+position: absolute;
+width: 85px;
+height: 85px;
+left: 1403px;
+top: 1690px;
+border-radius: 50%;
+
+background: #0029FF;
+
+}
+.calender{
+    /* Ellipse 198 */
+
+position: absolute;
+width: 85px;
+height: 85px;
+left: 1403px;
+top: 1590px;
+border-radius: 50%;
+
+background: #0029FF;
+
+}
+
+/* question-mark (2) 1 */
+
+.questionimage{
+    position: absolute;
+width: 37px;
+height: 40px;
+left: 25px;
+font-size: 50px;
+color: #ffffff;
+top: 20px;
+
+}
+
+.meetingimage{
+    position: absolute;
+    width: 37px;
+    height: 40px;
+    left: 15px;
+    font-size: 50px;
+    color: #ffffff;
+    top: 20px;
+}
+
+.calenderimage{
+    position: absolute;
+    width: 37px;
+    height: 40px;
+    left: 20px;
+    font-size: 50px;
+    color: #ffffff;
+    top: 20px;
+}
